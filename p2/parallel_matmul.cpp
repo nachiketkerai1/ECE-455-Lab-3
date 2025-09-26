@@ -5,8 +5,8 @@
 int main() {
 	const int N = 1024;
 	std::vector<std::vector<int>> A(N , std::vector<int>(N , 1));
-	std::vector<std::vector<int>> A(N , std::vector<int>(N , 2));
-	std::vector<std::vector<int>> A(N , std::vector<int>(N , 3));
+	std::vector<std::vector<int>> B(N , std::vector<int>(N , 2));
+	std::vector<std::vector<int>> C(N , std::vector<int>(N , 0));
 
 	#pragma omp parallel for 
 	for (int i = 0; i < N; ++i) {
