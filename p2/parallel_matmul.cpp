@@ -18,6 +18,6 @@ int main() {
 			C[i][j] = sum;
 		}
 	}
-	std::cout << "C[0][0] = " << C[0][0] << std:endl;
+	std::cout << "C[0][0] = " << C[0][0] << std::endl;
 	return 0;
 }
