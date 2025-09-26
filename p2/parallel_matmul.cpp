@@ -3,7 +3,7 @@
 #include <omp.h>
 
 int main() {
-	const in N = 1024;
+	const int N = 1024;
 	std::vector<std::vector<int>> A(N , std::vector<int>(N , 1));
 	std::vector<std::vector<int>> A(N , std::vector<int>(N , 2));
 	std::vector<std::vector<int>> A(N , std::vector<int>(N , 3));
